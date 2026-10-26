@@ -1,10 +1,4 @@
-temp = int(input("Enter the Temparature:"))
+def my_function(fname, lname):
+  print(fname + " " + lname)
 
-if temp > 30:
-    if temp > 40:
-        print("it's really hot outside!")
-    else:
-        print("It's hot outside!")
-
-else:
-    print("It's not hot outside!")
+my_function("Emil")
